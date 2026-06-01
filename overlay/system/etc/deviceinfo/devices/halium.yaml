@@ -1,0 +1,36 @@
+judypn:
+  Vendor: LG
+  codename: judypn
+  Names:
+    - LGV40
+    - judypn
+  PrettyName: LG V40 ThinQ
+  DeviceType: phone
+  GridUnit: 21
+  WebkitDpr: 2
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape
+  BacklightSysfsPath:
+    - /sys/class/backlight/panel0-backlight
+  FlashlightSysfsPath:
+    - /sys/class/leds/led:torch_0/brightness
+  FlashlightSwitchPath:
+    - /sys/class/leds/led:switch_0/brightness
+  DoubleTapToWake:
+    - /proc/touchpanel/double_tap_enable|1|0
+  MirAndroidPlatformServerBackpressure:
+    - false
+  MirAndroidPlatformServerPartialUpdates:
+    - true
+  MirAndroidPlatformServerEglSync:
+    - false
+  MirAndroidPlatformClientEglFlush:
+    - all
+  XwaylandShm:
+    - true
+  VibrateDurationExtraMs: 40
+  #OfonoPlugin: binder
+  #OfonoImplementsIms: true
+  FilesystemEncryption: true
